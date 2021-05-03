@@ -23,4 +23,4 @@ urlpatterns = [
     path('job_management/',include('job_management.urls'),name="job_management"),
     path('',include('job.urls')),
 ]
-+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
